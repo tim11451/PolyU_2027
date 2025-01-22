@@ -1,1 +1,10 @@
 CPU, Memory, I/O, the three important components.
+
+Numerical system: number repretation: 2's complement
+
+ALU to mathematical / logical calculation
+
+Binary numbers: signed and unsigned
+signed numbers: use the first digit to check if negative
+
+*use n bits to represent: 2^n numbers can be represented.
