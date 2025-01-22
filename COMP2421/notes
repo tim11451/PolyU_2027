@@ -1,4 +1,4 @@
-CPU, Memory, I/O, the three important components.
+***CPU, Memory, I/O, the three important components.
 
 Numerical system: number repretation: 2's complement
 
@@ -7,4 +7,55 @@ ALU to mathematical / logical calculation
 Binary numbers: signed and unsigned
 signed numbers: use the first digit to check if negative
 
-*use n bits to represent: 2^n numbers can be represented.
+*use n bits to represent: 2^n - 1 numbers can be represented.
+
+Find 2's complement of a number:
+add flip of A and A together, then plus 1 == A's 2's complement.
+
+Extend number bits?
+positive: simply add 0 is fine.
+
+negative: add 1 before the head.
+
+
+
+**Overflow:  positive + positive = negative
+(in general: have impossible results)
+
+subtraction:
+A - B = A + (-B)
+-B is the 2's complement of B
+lecture 2: P37: not required.
+
+
+**Fraction number repretation
+Question: where to put radix point?
+A: will not be decided.
+
+General: S * B^E
+normalized: 1.bbbbbbb.. * 2^E
+
+components: biased exponent E: 
+actual value of E = biased exponent - a fixed bias
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
