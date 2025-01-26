@@ -1,5 +1,6 @@
 In the first lab session, we learned how to use WireShark to capture packets.
 After the packets are captured, we should know how to check their details.
+The details include: When was the packet sent, received (time); the destination IP address; the protocol; and some general information about the packet.
 
 
 
