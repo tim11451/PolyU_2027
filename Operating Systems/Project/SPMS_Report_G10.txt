@@ -1,0 +1,384 @@
+23097881d-apollo:/home/23097881d/project$ ./a.out
+./SPMS
+Welcome to PolyU
+------------Command Lists------------
+1. addReservation/addEvent/addParking/bookEssentials
+2. importBatch -filePath
+3. printBookings -mode<fcfs/prio/ALL>
+4. generateSummary
+5. endProgram
+
+Enter your booking:
+addParking -member_A 2025-5-10 09:00 2.0 battery cable
+
+-> [Pending]
+<child> <1976> message [addParking -member_A 2025-5-10 09:00 2.0 battery cable] received
+<priority> <child> <1977> message [addParking -member_A 2025-5-10 09:00 2.0 battery cable] received
+------------Command Lists------------
+1. addReservation/addEvent/addParking/bookEssentials
+2. importBatch -filePath
+3. printBookings -mode<fcfs/prio/ALL>
+4. generateSummary
+5. endProgram
+
+Enter your booking:
+importBatch -/home/23097881d/project/batch3.dat
+
+-> [Pending]
+<child> <2022> message [addReservation -member_E 2025-05-14 08:00 12.0 battery cable] received
+<priority> <child> <2023> message [addReservation -member_E 2025-05-14 08:00 12.0 battery cable] received
+
+-> [Pending]
+<child> <2024> message [addReservation -member_B 2025-05-10 08:00 11.0 battery cable] received
+<priority> <child> <2025> message [addReservation -member_B 2025-05-10 08:00 11.0 battery cable] received
+-member_A's booking is canceled.
+
+-> [Pending]
+<child> <2026> message [addParking -member_A 2025-05-13 09:00 4.0 cable] received
+<priority> <child> <2027> message [addParking -member_A 2025-05-13 09:00 4.0 cable] received
+
+-> [Pending]
+<child> <2028> message [addEvent -member_D 2025-05-12 01:00 22.0 cable] received
+<priority> <child> <2029> message [addEvent -member_D 2025-05-12 01:00 22.0 cable] received
+
+-> [Pending]
+<child> <2030> message [addReservation -member_C 2025-05-11 01:00 22.0 cable] received
+<priority> <child> <2031> message [addReservation -member_C 2025-05-11 01:00 22.0 cable] received
+
+-> [Pending]
+<child> <2032> message [addReservation -member_B 2025-05-11 01:00 22.0 cable] received
+<priority> <child> <2033> message [addReservation -member_B 2025-05-11 01:00 22.0 cable] received
+
+-> [Pending]
+<child> <2034> message [addReservation -member_D 2025-05-11 01:00 22.0 umbrella] received
+<priority> <child> <2035> message [addReservation -member_D 2025-05-11 01:00 22.0 umbrella] received
+
+-> [Pending]
+<child> <2036> message [addEvent -member_D 2025-05-12 01:00 22.0 valetparking] received
+<priority> <child> <2037> message [addEvent -member_D 2025-05-12 01:00 22.0 valetparking] received
+
+-> [Pending]
+<child> <2038> message [addReservation -member_A 2025-05-10 02:00 14.0 lockers] received
+<priority> <child> <2039> message [addReservation -member_A 2025-05-10 02:00 14.0 lockers] received
+
+-> [Pending]
+<child> <2040> message [addParking -member_E 2025-05-13 02:00 19.0 inflationservice] received
+<priority> <child> <2041> message [addParking -member_E 2025-05-13 02:00 19.0 inflationservice] received
+
+-> [Pending]
+<child> <2042> message [addParking -member_C 2025-05-14 02:00 19.0 inflationservice] received
+<priority> <child> <2043> message [addParking -member_C 2025-05-14 02:00 19.0 inflationservice] received
+
+-> [Pending]
+<child> <2044> message [addParking -member_A 2025-05-13 09:00 14.0 inflationservice] received
+<priority> <child> <2045> message [addParking -member_A 2025-05-13 09:00 14.0 inflationservice] received
+
+-> [Pending]
+<child> <2046> message [addReservation -member_B 2025-05-15 08:00 15.0 battery cable] received
+<priority> <child> <2047> message [addReservation -member_B 2025-05-15 08:00 15.0 battery cable] received
+
+-> [Pending]
+<child> <2048> message [addReservation -member_C 2025-05-15 08:00 11.0 battery cable] received
+<priority> <child> <2049> message [addReservation -member_C 2025-05-15 08:00 11.0 battery cable] received
+
+-> [Pending]
+<child> <2050> message [bookEssentials -member_D 2025-05-16 09:00 8.0 battery cable] received
+<priority> <child> <2051> message [bookEssentials -member_D 2025-05-16 09:00 8.0 battery cable] received
+
+-> [Pending]
+<child> <2052> message [addReservation -member_B 2025-05-16 02:00 20.0 umbrella] received
+<priority> <child> <2053> message [addReservation -member_B 2025-05-16 02:00 20.0 umbrella] received
+
+-> [Pending]
+<child> <2054> message [addParking -member_B 2025-05-10 02:00 20.0 umbrella] received
+<priority> <child> <2055> message [addParking -member_B 2025-05-10 02:00 20.0 umbrella] received
+
+-> [Pending]
+<child> <2056> message [bookEssentials -member_A 2025-05-10 09:00 8.0 inflationservice] received
+<priority> <child> <2057> message [bookEssentials -member_A 2025-05-10 09:00 8.0 inflationservice] received
+
+-> [Pending]
+<child> <2058> message [bookEssentials -member_A 2025-05-11 09:00 8.0 valetparking] received
+<priority> <child> <2059> message [bookEssentials -member_A 2025-05-11 09:00 8.0 valetparking] received
+
+-> [Pending]
+<child> <2060> message [addEvent -member_E 2025-05-13 01:00 22.0 umbrella] received
+<priority> <child> <2061> message [addEvent -member_E 2025-05-13 01:00 22.0 umbrella] received
+-member_A's booking is canceled.
+
+-> [Pending]
+<child> <2062> message [addEvent -member_C 2025-05-13 02:00 9.0 valetparking] received
+<priority> <child> <2063> message [addEvent -member_C 2025-05-13 02:00 9.0 valetparking] received
+-member_E's booking is canceled.
+
+-> [Pending]
+<child> <2064> message [addReservation -member_C 2025-05-16 02:00 21.0 battery cable] received
+<priority> <child> <2065> message [addReservation -member_C 2025-05-16 02:00 21.0 battery cable] received
+-member_D's booking is canceled.
+
+-> [Pending]
+<child> <2066> message [addEvent -member_D 2025-05-12 01:00 22.0 umbrella] received
+<priority> <child> <2067> message [addEvent -member_D 2025-05-12 01:00 22.0 umbrella] received
+
+-> [Pending]
+<child> <2068> message [bookEssentials -member_D 2025-05-10 01:00 17.0 umbrella] received
+<priority> <child> <2069> message [bookEssentials -member_D 2025-05-10 01:00 17.0 umbrella] received
+
+-> [Pending]
+<child> <2070> message [addReservation -member_C 2025-05-16 01:00 22.0 cable] received
+<priority> <child> <2071> message [addReservation -member_C 2025-05-16 01:00 22.0 cable] received
+
+-> [Pending]
+<child> <2072> message [addParking -member_C 2025-05-13 21:00 1.0 umbrella] received
+<priority> <child> <2073> message [addParking -member_C 2025-05-13 21:00 1.0 umbrella] received
+
+------------Command Lists------------
+1. addReservation/addEvent/addParking/bookEssentials
+2. importBatch -filePath
+3. printBookings -mode<fcfs/prio/ALL>
+4. generateSummary
+5. endProgram
+
+Enter your booking:
+printBookings -fcfs
+*** Parking Booking FCFS - ACCEPTED ***
+Member A:
+Date: 2025-5-10, Time: 09:00, Duration: 2 hours, Type: PARKING, Essentials: battery cable
+Date: 2025-05-13, Time: 09:00, Duration: 4 hours, Type: PARKING, Essentials: cable
+Date: 2025-05-10, Time: 02:00, Duration: 14 hours, Type: RESERVATION, Essentials: lockers
+Date: 2025-05-13, Time: 09:00, Duration: 14 hours, Type: PARKING, Essentials: inflationservice
+Date: 2025-05-10, Time: 09:00, Duration: 8 hours, Type: *, Essentials: inflationservice
+Date: 2025-05-11, Time: 09:00, Duration: 8 hours, Type: *, Essentials: valetparking
+Member B:
+Date: 2025-05-10, Time: 08:00, Duration: 11 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-11, Time: 01:00, Duration: 22 hours, Type: RESERVATION, Essentials: cable
+Date: 2025-05-15, Time: 08:00, Duration: 15 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-16, Time: 02:00, Duration: 20 hours, Type: RESERVATION, Essentials: umbrella
+Member C:
+Date: 2025-05-11, Time: 01:00, Duration: 22 hours, Type: RESERVATION, Essentials: cable
+Date: 2025-05-14, Time: 02:00, Duration: 19 hours, Type: PARKING, Essentials: inflationservice
+Date: 2025-05-15, Time: 08:00, Duration: 11 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-16, Time: 02:00, Duration: 21 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-16, Time: 01:00, Duration: 22 hours, Type: RESERVATION, Essentials: cable
+Date: 2025-05-13, Time: 21:00, Duration: 1 hours, Type: PARKING, Essentials: umbrella
+Member D:
+Date: 2025-05-12, Time: 01:00, Duration: 22 hours, Type: EVENT, Essentials: cable
+Date: 2025-05-11, Time: 01:00, Duration: 22 hours, Type: RESERVATION, Essentials: umbrella
+Date: 2025-05-12, Time: 01:00, Duration: 22 hours, Type: EVENT, Essentials: valetparking
+Date: 2025-05-16, Time: 09:00, Duration: 8 hours, Type: *, Essentials: battery cable
+Date: 2025-05-12, Time: 01:00, Duration: 22 hours, Type: EVENT, Essentials: umbrella
+Date: 2025-05-10, Time: 01:00, Duration: 17 hours, Type: *, Essentials: umbrella
+Member E:
+Date: 2025-05-14, Time: 08:00, Duration: 12 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-13, Time: 02:00, Duration: 19 hours, Type: PARKING, Essentials: inflationservice
+
+*** Parking Booking FCFS - REJECTED ***
+Member A:
+Member B:
+Date: 2025-05-10, Time: 02:00, Duration: 20 hours, Type: PARKING, Essentials: umbrella
+Member C:
+Date: 2025-05-13, Time: 02:00, Duration: 9 hours, Type: EVENT, Essentials: valetparking
+Member D:
+Member E:
+Date: 2025-05-13, Time: 01:00, Duration: 22 hours, Type: EVENT, Essentials: umbrella
+
+-> [Done!]
+
+------------Command Lists------------
+1. addReservation/addEvent/addParking/bookEssentials
+2. importBatch -filePath
+3. printBookings -mode<fcfs/prio/ALL>
+4. generateSummary
+5. endProgram
+
+Enter your booking:
+printBookings -prio
+*** Parking Booking PRIORITY - ACCEPTED ***
+Member A:
+Date: 2025-05-10, Time: 02:00, Duration: 14 hours, Type: RESERVATION, Essentials: lockers
+Date: 2025-05-13, Time: 09:00, Duration: 14 hours, Type: PARKING, Essentials: inflationservice
+Date: 2025-05-10, Time: 09:00, Duration: 8 hours, Type: *, Essentials: inflationservice
+Date: 2025-05-11, Time: 09:00, Duration: 8 hours, Type: *, Essentials: valetparking
+Member B:
+Date: 2025-05-10, Time: 08:00, Duration: 11 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-11, Time: 01:00, Duration: 22 hours, Type: RESERVATION, Essentials: cable
+Date: 2025-05-15, Time: 08:00, Duration: 15 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-16, Time: 02:00, Duration: 20 hours, Type: RESERVATION, Essentials: umbrella
+Date: 2025-05-10, Time: 02:00, Duration: 20 hours, Type: PARKING, Essentials: umbrella
+Member C:
+Date: 2025-05-11, Time: 01:00, Duration: 22 hours, Type: RESERVATION, Essentials: cable
+Date: 2025-05-14, Time: 02:00, Duration: 19 hours, Type: PARKING, Essentials: inflationservice
+Date: 2025-05-15, Time: 08:00, Duration: 11 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-13, Time: 02:00, Duration: 9 hours, Type: EVENT, Essentials: valetparking
+Date: 2025-05-16, Time: 02:00, Duration: 21 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-16, Time: 01:00, Duration: 22 hours, Type: RESERVATION, Essentials: cable
+Date: 2025-05-13, Time: 21:00, Duration: 1 hours, Type: PARKING, Essentials: umbrella
+Member D:
+Date: 2025-05-12, Time: 01:00, Duration: 22 hours, Type: EVENT, Essentials: cable
+Date: 2025-05-11, Time: 01:00, Duration: 22 hours, Type: RESERVATION, Essentials: umbrella
+Date: 2025-05-12, Time: 01:00, Duration: 22 hours, Type: EVENT, Essentials: valetparking
+Date: 2025-05-12, Time: 01:00, Duration: 22 hours, Type: EVENT, Essentials: umbrella
+Date: 2025-05-10, Time: 01:00, Duration: 17 hours, Type: *, Essentials: umbrella
+Member E:
+Date: 2025-05-14, Time: 08:00, Duration: 12 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-13, Time: 01:00, Duration: 22 hours, Type: EVENT, Essentials: umbrella
+
+*** Parking Booking PRIORITY - REJECTED ***
+Member A:
+Date: 2025-5-10, Time: 09:00, Duration: 2 hours, Type: PARKING, Essentials: battery cable
+Date: 2025-05-13, Time: 09:00, Duration: 4 hours, Type: PARKING, Essentials: cable
+Member B:
+Member C:
+Member D:
+Date: 2025-05-16, Time: 09:00, Duration: 8 hours, Type: *, Essentials: battery cable
+Member E:
+Date: 2025-05-13, Time: 02:00, Duration: 19 hours, Type: PARKING, Essentials: inflationservice
+
+-> [Done!]
+
+
+------------Command Lists------------
+1. addReservation/addEvent/addParking/bookEssentials
+2. importBatch -filePath
+3. printBookings -mode<fcfs/prio/ALL>
+4. generateSummary
+5. endProgram
+
+Enter your booking:
+printBookings -ALL
+*** Parking Booking FCFS - ACCEPTED ***
+Member A:
+Date: 2025-5-10, Time: 09:00, Duration: 2 hours, Type: PARKING, Essentials: battery cable
+Date: 2025-05-13, Time: 09:00, Duration: 4 hours, Type: PARKING, Essentials: cable
+Date: 2025-05-10, Time: 02:00, Duration: 14 hours, Type: RESERVATION, Essentials: lockers
+Date: 2025-05-13, Time: 09:00, Duration: 14 hours, Type: PARKING, Essentials: inflationservice
+Date: 2025-05-10, Time: 09:00, Duration: 8 hours, Type: *, Essentials: inflationservice
+Date: 2025-05-11, Time: 09:00, Duration: 8 hours, Type: *, Essentials: valetparking
+Member B:
+Date: 2025-05-10, Time: 08:00, Duration: 11 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-11, Time: 01:00, Duration: 22 hours, Type: RESERVATION, Essentials: cable
+Date: 2025-05-15, Time: 08:00, Duration: 15 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-16, Time: 02:00, Duration: 20 hours, Type: RESERVATION, Essentials: umbrella
+Member C:
+Date: 2025-05-11, Time: 01:00, Duration: 22 hours, Type: RESERVATION, Essentials: cable
+Date: 2025-05-14, Time: 02:00, Duration: 19 hours, Type: PARKING, Essentials: inflationservice
+Date: 2025-05-15, Time: 08:00, Duration: 11 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-16, Time: 02:00, Duration: 21 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-16, Time: 01:00, Duration: 22 hours, Type: RESERVATION, Essentials: cable
+Date: 2025-05-13, Time: 21:00, Duration: 1 hours, Type: PARKING, Essentials: umbrella
+Member D:
+Date: 2025-05-12, Time: 01:00, Duration: 22 hours, Type: EVENT, Essentials: cable
+Date: 2025-05-11, Time: 01:00, Duration: 22 hours, Type: RESERVATION, Essentials: umbrella
+Date: 2025-05-12, Time: 01:00, Duration: 22 hours, Type: EVENT, Essentials: valetparking
+Date: 2025-05-16, Time: 09:00, Duration: 8 hours, Type: *, Essentials: battery cable
+Date: 2025-05-12, Time: 01:00, Duration: 22 hours, Type: EVENT, Essentials: umbrella
+Date: 2025-05-10, Time: 01:00, Duration: 17 hours, Type: *, Essentials: umbrella
+Member E:
+Date: 2025-05-14, Time: 08:00, Duration: 12 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-13, Time: 02:00, Duration: 19 hours, Type: PARKING, Essentials: inflationservice
+
+*** Parking Booking FCFS - REJECTED ***
+Member A:
+Member B:
+Date: 2025-05-10, Time: 02:00, Duration: 20 hours, Type: PARKING, Essentials: umbrella
+Member C:
+Date: 2025-05-13, Time: 02:00, Duration: 9 hours, Type: EVENT, Essentials: valetparking
+Member D:
+Member E:
+Date: 2025-05-13, Time: 01:00, Duration: 22 hours, Type: EVENT, Essentials: umbrella
+
+*** Parking Booking PRIORITY - ACCEPTED ***
+Member A:
+Date: 2025-05-10, Time: 02:00, Duration: 14 hours, Type: RESERVATION, Essentials: lockers
+Date: 2025-05-13, Time: 09:00, Duration: 14 hours, Type: PARKING, Essentials: inflationservice
+Date: 2025-05-10, Time: 09:00, Duration: 8 hours, Type: *, Essentials: inflationservice
+Date: 2025-05-11, Time: 09:00, Duration: 8 hours, Type: *, Essentials: valetparking
+Member B:
+Date: 2025-05-10, Time: 08:00, Duration: 11 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-11, Time: 01:00, Duration: 22 hours, Type: RESERVATION, Essentials: cable
+Date: 2025-05-15, Time: 08:00, Duration: 15 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-16, Time: 02:00, Duration: 20 hours, Type: RESERVATION, Essentials: umbrella
+Date: 2025-05-10, Time: 02:00, Duration: 20 hours, Type: PARKING, Essentials: umbrella
+Member C:
+Date: 2025-05-11, Time: 01:00, Duration: 22 hours, Type: RESERVATION, Essentials: cable
+Date: 2025-05-14, Time: 02:00, Duration: 19 hours, Type: PARKING, Essentials: inflationservice
+Date: 2025-05-15, Time: 08:00, Duration: 11 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-13, Time: 02:00, Duration: 9 hours, Type: EVENT, Essentials: valetparking
+Date: 2025-05-16, Time: 02:00, Duration: 21 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-16, Time: 01:00, Duration: 22 hours, Type: RESERVATION, Essentials: cable
+Date: 2025-05-13, Time: 21:00, Duration: 1 hours, Type: PARKING, Essentials: umbrella
+Member D:
+Date: 2025-05-12, Time: 01:00, Duration: 22 hours, Type: EVENT, Essentials: cable
+Date: 2025-05-11, Time: 01:00, Duration: 22 hours, Type: RESERVATION, Essentials: umbrella
+Date: 2025-05-12, Time: 01:00, Duration: 22 hours, Type: EVENT, Essentials: valetparking
+Date: 2025-05-12, Time: 01:00, Duration: 22 hours, Type: EVENT, Essentials: umbrella
+Date: 2025-05-10, Time: 01:00, Duration: 17 hours, Type: *, Essentials: umbrella
+Member E:
+Date: 2025-05-14, Time: 08:00, Duration: 12 hours, Type: RESERVATION, Essentials: battery cable
+Date: 2025-05-13, Time: 01:00, Duration: 22 hours, Type: EVENT, Essentials: umbrella
+
+*** Parking Booking PRIORITY - REJECTED ***
+Member A:
+Date: 2025-5-10, Time: 09:00, Duration: 2 hours, Type: PARKING, Essentials: battery cable
+Date: 2025-05-13, Time: 09:00, Duration: 4 hours, Type: PARKING, Essentials: cable
+Member B:
+Member C:
+Member D:
+Date: 2025-05-16, Time: 09:00, Duration: 8 hours, Type: *, Essentials: battery cable
+Member E:
+Date: 2025-05-13, Time: 02:00, Duration: 19 hours, Type: PARKING, Essentials: inflationservice
+
+-> [Done!]
+
+------------Command Lists------------
+1. addReservation/addEvent/addParking/bookEssentials
+2. importBatch -filePath
+3. printBookings -mode<fcfs/prio/ALL>
+4. generateSummary
+5. endProgram
+
+Enter your booking:
+generateSummary
+*** Parking Booking Manager - Summary Report ***
+Performance:
+ For FCFS:
+Total Bookings: 28
+Accepted: 24 (85.7%)
+Rejected: 4 (14.3%)
+
+Resource Utilization:
+Parking Slots: 62.9%
+Battery and Cable Pairs: 34.1%
+Lockers and Umbrellas Pairs: 19.0%
+Inflation services and Valet Parkings: 17.9%
+
+ For Priority:
+Total Bookings: 27
+Accepted: 23 (85.2%)
+Rejected: 4 (14.8%)
+
+Resource Utilization:
+Parking Slots: 70.0%
+Battery and Cable Pairs: 32.1%
+Lockers and Umbrellas Pairs: 27.4%
+Inflation services and Valet Parkings: 17.9%
+
+*** Algorithm Comparison ***
+FCFS Accepted: 24
+Priority Accepted: 23
+1706
+1696
+FCFS is the more efficient algorithm.
+
+------------Command Lists------------
+1. addReservation/addEvent/addParking/bookEssentials
+2. importBatch -filePath
+3. printBookings -mode<fcfs/prio/ALL>
+4. generateSummary
+5. endProgram
+
+Enter your booking:
+endProgram
+Bye!
+
+
