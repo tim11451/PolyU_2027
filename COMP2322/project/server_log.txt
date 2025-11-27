@@ -1,0 +1,33 @@
+2025-04-27 18:00:53.840617: client('127.0.0.1', 49549) requested file /index.html with response 200 OK
+2025-04-27 18:01:10.769302: client('127.0.0.1', 49553) requested file /index2.html with response 200 OK
+2025-04-27 18:01:17.553583: client('127.0.0.1', 49553) requested file /test.html with response 200 OK
+2025-04-27 18:01:17.582209: client('127.0.0.1', 49553) requested file /hello_world.png with response 200 OK
+2025-04-27 18:01:22.738081: client('127.0.0.1', 49553) requested file /index.html with response 200 OK
+2025-04-27 23:09:19.786428: client('127.0.0.1', 49584) requested file /index2.html with response 200 OK
+2025-04-27 23:09:23.133024: client('127.0.0.1', 49584) requested file /test.html with response 200 OK
+2025-04-27 23:09:26.079570: client('127.0.0.1', 49584) requested file /not-exist.html with response 404 Not Found
+2025-04-27 23:09:27.415363: client('127.0.0.1', 49584) requested file /test.html with response 200 OK
+2025-04-28 12:06:12.785347: client('127.0.0.1', 60503) requested file /not-exist.html with response 404 Not Found
+2025-04-28 12:08:01.168160: client('127.0.0.1', 60569) requested file /index2.html with response 200 OK
+2025-04-28 12:10:15.564825: client('127.0.0.1', 60636) requested file / with response 400 Bad Request
+2025-04-28 12:10:17.109980: client('127.0.0.1', 60636) requested file /test.html with response 200 OK
+2025-04-28 12:16:34.924528: client('127.0.0.1', 60872) requested file /index1.html with response 200 OK
+2025-04-28 12:17:35.605957: client('127.0.0.1', 60934) requested file /index1.html with response 200 OK
+2025-04-28 12:18:31.563459: client('127.0.0.1', 60973) requested file /index1.html with response 200 OK
+2025-04-28 12:21:04.551255: client('127.0.0.1', 61047) requested file /index1.html with response 200 OK
+2025-04-28 12:24:16.961589: client('127.0.0.1', 61187) requested file /index1.html with response 200 OK
+2025-04-28 12:24:30.171793: client('127.0.0.1', 61190) requested file /test.html with response 200 OK
+2025-04-28 12:24:31.425901: client('127.0.0.1', 61190) requested file / with response 400 Bad Request
+2025-04-28 12:26:00.077335: client('127.0.0.1', 61262) requested file /index1.html with response 200 OK
+2025-04-28 12:26:03.707765: client('127.0.0.1', 61262) requested file / with response 400 Bad Request
+2025-04-28 12:30:32.200822: client('127.0.0.1', 61380) requested file /index1.html with response 200 OK
+2025-04-28 12:30:36.298908: client('127.0.0.1', 61380) requested file /test.html with response 200 OK
+2025-04-28 12:30:37.156258: client('127.0.0.1', 61380) requested file / with response 400 Bad Request
+2025-04-28 12:32:38.574038: client('127.0.0.1', 61448) requested file /index1.html with response 200 OK
+2025-04-28 12:32:41.321230: client('127.0.0.1', 61448) requested file /test.html with response 200 OK
+2025-04-28 12:32:42.033320: client('127.0.0.1', 61448) requested file / with response 400 Bad Request
+2025-04-28 12:33:54.587906: client('127.0.0.1', 61496) requested file /index1.html with response 200 OK
+2025-04-28 12:35:10.752708: client('127.0.0.1', 61542) requested file /index1.html with response 200 OK
+2025-04-28 12:35:15.243066: client('127.0.0.1', 61542) requested file / with response 400 Bad Request
+2025-04-28 12:35:15.640006: client('127.0.0.1', 61542) requested file /test.html with response 200 OK
+2025-04-28 12:36:05.013010: client('127.0.0.1', 61548) requested file /not-exist.html with response 404 Not Found
