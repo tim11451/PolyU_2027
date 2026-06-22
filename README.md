@@ -1,2 +1,2 @@
 # PolyU_2027
-以此repository，纪念我学无所成的本科时光
+以此repository，纪念我略显幽默的本科时光
